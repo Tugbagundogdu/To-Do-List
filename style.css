@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    font-family: sans-serif;
+}
+
+.container{
+
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title{
+
+    text-align: center;
+    font-size: 50px;
+}
+
+#textToDo{
+
+    width: 300px;
+    height: 46px;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid orange;
+    border-radius: 15px;
+    color: black;
+}
+
+#ekleToDo{
+    height: 45px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: green;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 15px;
+    
+
+}
+#ekleToDo:active{
+
+    background-color: rgb(59, 173, 59);
+  
+}
+
+#silToDo{
+    height: 45px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+#silToDo:active{
+    background-color: rgb(209, 70, 70);
+}
+
+.paragrafStili{
+
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: rgb(7, 7, 72);
+    text-transform: capitalize;
+}
+
+#eklenecekler{
+    margin-top: 25px;
+}
